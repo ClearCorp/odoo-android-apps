@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Sale Order Client</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email or User</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_database">Database</string>
+    <string name="prompt_url">URL</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_new_so">New Sale Order</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_url">The URL is invalid</string>
+    <string name="error_no_connection">Error connecting to server.</string>
+    <string name="error_on_server_login">Invalid login or database.</string>
+    <string name="error_no_customer">Please select a customer first.</string>
+    <string name="error_no_pricelist">Please select a pricelist first.</string>
+    <string name="error_no_lines_no_pricelist_no_customer">No customer, pricelist or lines selected</string>
+    <string name="error_already_editing">Already editing please save or cancel before proceding.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_customer">Customer</string>
+    <string name="prompt_pricelist">Pricelist</string>
+    <string name="prompt_customer_no_selection">Select a Customer</string>
+    <string name="prompt_pricelist_no_selection">Select a Pricelist</string>
+    <string name="prompt_reference">Reference/Description</string>
+    <string name="prompt_products">Products</string>
+    <string name="prompt_edit_line">Edit Product</string>
+    <string name="prompt_qty">Qty</string>
+    <string name="prompt_product">Product</string>
+    <string name="prompt_uom">UoM</string>
+    <string name="prompt_total">Total</string>
+    <string name="action_new">Create</string>
+    <string name="dialog_title">Continue</string>
+    <string name="dialog_message">Are you sure you want to continue?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

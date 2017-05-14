@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cliente Orden de Venta</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email or Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_database">Base de Datos</string>
+    <string name="prompt_url">URL</string>
+    <string name="action_sign_in">Loguearse</string>
+    <string name="action_sign_in_short">Loguearse</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_clear">Limpiar</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_new_so">Nuevo pedido de venta</string>
+    <string name="error_invalid_password">Esta contraseña es muy corta</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_invalid_url">El URL es inválido</string>
+    <string name="error_no_connection">Error conectando al servidor.</string>
+    <string name="error_on_server_login">Base de datos o login inválido.</string>
+    <string name="error_no_customer">Por favor seleccione un cliente primero.</string>
+    <string name="error_no_pricelist">Por favor seleccione una tarifa primero.</string>
+    <string name="error_no_lines_no_pricelist_no_customer">No hay un cliente, una tarifa o líneas seleccionadas</string>
+    <string name="error_already_editing">Actualmente editando por favor salve o cancele antes de proceder.</string>
+    <string name="permission_rationale">"Los permisos en contactos son necesarios para proveer sugerencias de email."</string>
+    <string name="prompt_customer">Cliente</string>
+    <string name="prompt_pricelist">Tarifa</string>
+    <string name="prompt_customer_no_selection">Seleccione un cliente</string>
+    <string name="prompt_pricelist_no_selection">Seleccione una tarifa</string>
+    <string name="prompt_reference">Referencia/Descripción</string>
+    <string name="prompt_products">Productos</string>
+    <string name="prompt_edit_line">Editar Producto</string>
+    <string name="prompt_qty">Cant</string>
+    <string name="prompt_product">Producto</string>
+    <string name="prompt_uom">UdM</string>
+    <string name="prompt_total">Total</string>
+    <string name="action_new">Crear</string>
+    <string name="dialog_title">Continuar</string>
+    <string name="dialog_message">¿Estás seguro que deseas continuar?</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+</resources>

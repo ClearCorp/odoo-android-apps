@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/clear_sync"
+        android:title="@string/action_sync"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/create_new"
+        android:title="@string/action_new"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/clear_sale"
+        android:title="@string/action_clear"
+        app:showAsAction="ifRoom"/>
+</menu>

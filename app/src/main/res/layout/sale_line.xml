@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="16">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSaleQty"
+            android:layout_gravity="center_vertical|start"
+            android:textAlignment="center"
+            android:layout_weight="4" />
+            <!--android:inputType="numberDecimal"
+            android:textSize="@dimen/text_product_line_label_size"-->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSaleProduct"
+            android:layout_gravity="center_vertical|start"
+            android:textAlignment="center"
+            android:layout_weight="12" />
+            <!--android:textSize="@dimen/text_product_line_label_size"-->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSaleUom"
+            android:layout_gravity="center_vertical|start"
+            android:textAlignment="center"
+            android:layout_weight="4" />
+            <!--android:textSize="@dimen/text_product_line_label_size"-->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSalePrice"
+            android:layout_gravity="center_vertical|start"
+            android:textAlignment="center"
+            android:layout_weight="4"/>
+            <!--android:inputType="numberDecimal"
+            android:textSize="@dimen/text_product_line_label_size"-->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSalePriceTotal"
+            android:layout_gravity="center_vertical|start"
+            android:textAlignment="center"
+            android:layout_weight="8"/>
+            <!--android:textSize="@dimen/text_product_line_label_size"-->
+
+    </LinearLayout>
+
+</LinearLayout>

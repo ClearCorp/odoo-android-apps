@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SaleOrderClient.iml" filepath="$PROJECT_DIR$/SaleOrderClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odoo-android-apps.iml" filepath="$PROJECT_DIR$/odoo-android-apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odoo-android-apps-1.0.iml" filepath="$PROJECT_DIR$/odoo-android-apps-1.0.iml" />
+    </modules>
+  </component>
+</project>
