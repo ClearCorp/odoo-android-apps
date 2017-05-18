@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Toast;
 
 import cr.clearcorp.odoo.saleorderclient.controllers.SaleOrderController;
 import cr.clearcorp.odoo.saleorderclient.models.Product;
@@ -31,6 +32,7 @@ SaleOrderLineEditFragment.OnActionListener {
     private String url;
     private Integer uid;
     private boolean editing;
+
     private CreateSaleOrderTask saleOrderTask = null;
 
     @Override
@@ -97,6 +99,16 @@ SaleOrderLineEditFragment.OnActionListener {
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
+            case R.id.clear_sync:
+                try{
+                    finish();
+
+                    startActivity(getIntent());
+                }catch(Exception e){
+                }
+                Toast.makeText(this, "Please wait, Synchronizing Data... ",Toast.LENGTH_LONG).show();
+                return true;
+
             case R.id.create_new:
                 CreateNewConfirm();
                 return true;

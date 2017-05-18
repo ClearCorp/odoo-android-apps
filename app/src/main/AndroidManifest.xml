@@ -10,7 +10,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -24,10 +24,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".SaleActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenSize">
         </activity>
         <activity android:name=".SaleConfirmationActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenSize">
         </activity>
     </application>
 

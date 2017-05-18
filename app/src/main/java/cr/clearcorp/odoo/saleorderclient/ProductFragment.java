@@ -4,6 +4,7 @@ package cr.clearcorp.odoo.saleorderclient;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -48,14 +49,15 @@ public class ProductFragment extends Fragment {
         this.uid = bundle.getInt("uid", 0);
         View view = inflater.inflate(R.layout.fragment_product, container, false);
         this.productGrid = (GridView) view.findViewById(R.id.gridViewProduct);
+        productTask = new RetrieveProductIdsTask(url, database, uid, password);
+        productTask.execute();
         return view;
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        productTask = new RetrieveProductIdsTask(url, database, uid, password);
-        productTask.execute();
+
     }
 
     @Override
@@ -68,6 +70,11 @@ public class ProductFragment extends Fragment {
         catch (Exception e) {
             Log.d("ProductFragement", "Object not instantiated");
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
     }
 
     @Override

@@ -99,16 +99,17 @@ public class SaleOrderLineFragment extends Fragment {
                 listener.OnItemEditClicked(line, position);
             }
         });
+        customerTask = new RetrieveCustomersIdsTask(url, database, uid, password);
+        customerTask.execute();
+        pricelistTask = new RetrievePricelistIdsTask(url, database, uid, password);
+        pricelistTask.execute();
         return view;
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        customerTask = new RetrieveCustomersIdsTask(url, database, uid, password);
-        customerTask.execute();
-        pricelistTask = new RetrievePricelistIdsTask(url, database, uid, password);
-        pricelistTask.execute();
+
     }
 
     @Override
@@ -121,10 +122,7 @@ public class SaleOrderLineFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        ClearAdapter();
-        ClearCustomer();
-        ClearPricelist();
-        ClearTotal();
+
     }
 
     @Override
@@ -137,6 +135,7 @@ public class SaleOrderLineFragment extends Fragment {
                     + " must implement SaleOrderLineFragment.OnItemClickEditListener");
         }
     }
+
 
     private void LoadtextViewCustomer(ArrayList<Customer> customers) {
         ArrayAdapter<Customer> adapter;

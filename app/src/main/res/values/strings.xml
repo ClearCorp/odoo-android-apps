@@ -11,6 +11,7 @@
     <string name="action_save">Save</string>
     <string name="action_cancel">Cancel</string>
     <string name="action_clear">Clear</string>
+    <string name="action_sync">Sync</string>
     <string name="action_delete">Delete</string>
     <string name="action_new_so">New Sale Order</string>
     <string name="error_invalid_password">This password is too short</string>
